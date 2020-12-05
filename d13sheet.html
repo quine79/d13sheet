@@ -101,6 +101,10 @@
         </td>
     </tr>
     <tr>
+        <td colspan="2"><label class="sheet-left">Skills (Brawn + Grace + Will + Wits + Age's d4 + 13):</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_points" value="(@{brawn} + @{grace} + @{will} + @{wits} + ((@{age} - (@{age} % 10)) / 10) + 13)" disabled="true" /></span></td>
+        <td><label class="sheet-left">Points Unspent:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_points_unspent" value="(@{skill_points} - (@{skill_animal_handling} + @{skill_intuition} + @{skill_piloting} + @{skill_athletics} + @{skill_language} + @{skill_prestidigitation} + @{skill_bluffing} + @{skill_law} + @{skill_research} + @{skill_business} + @{skill_literacy} + @{skill_riding} + @{skill_computer} + @{skill_lockpicking} + @{skill_shooting} + @{skill_crime} + @{skill_mechanics} + @{skill_stealth} + @{skill_disguise} + @{skill_medicine} + @{skill_survival} + @{skill_driving} + @{skill_navigation} + @{skill_throwing} + @{skill_electronics} + @{skill_occultism} + @{skill_tracking} + @{skill_hand_to_hand} + @{skill_perception} + @{skill_custom_skill_1} + @{skill_heavy_equipment} + @{skill_persuasion} + @{skill_custom_skill_2} + @{skill_intimidation} + @{skill_pickpocketing} + @{skill_custom_skill_3}))" disabled="true" /></span></td>
+    </tr>
+    <tr>
         <td><label class="sheet-left">Animal Handling:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_animal_handling" value="0" /></span></td>
         <td><label class="sheet-left">Intuition:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_intuition" value="0" /></span></td>
         <td><label class="sheet-left">Piloting:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_piloting" value="0" /></span></td>
