@@ -1,0 +1,60 @@
+/* Set the min-width so that when the window is resized the look will stay consistant */
+
+.charsheet {
+	background-color: #ddd;
+	min-width: 800px;
+	background: url(https://raw.githubusercontent.com/quine79/d13sheet/master/background.png);
+  	background-repeat: no-repeat;
+  	background-size: auto;
+}
+
+/* Universal styling applied to all elements of these types */
+
+h2 {
+	font-size: 2em;
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.sheet-left {
+    float: left;
+    width: auto;
+    display: inline-block;
+    vertical-align: middle;
+	line-height: 24px;
+	padding-left: 24px;
+}
+
+.sheet-left2 {
+    overflow: hidden;
+    display: block;
+    padding: 0 4px 0 10px;
+    vertical-align: middle;
+	line-height: 24px;
+}
+
+.sheet-left2 input {
+    width: 100%
+}
+
+.sheet-left2 select {
+    width: 100%
+}
+
+img {
+	max-height: 100px;
+}
+
+textarea {
+	resize: vertical;
+}
+
+.sheet-table {
+	border: 0;
+	width: 100%;
+}
+
+.sheet-attr {
+	width: 40px !important;
+	float: right;
+}

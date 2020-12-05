@@ -1,0 +1,180 @@
+<div class="2colrow">
+    <div class="col">D13 RPG</div>
+    <div class="col" style="text-align:right">Grim Horror Across Time &amp; Space</div>
+</div>
+
+<div class="row">
+    <div class="col"><h2>Empyrean Soul</h2></div>
+</div>
+
+<table class="sheet-table">
+    <tr>
+        <td>
+            <label class="sheet-left" for="attr_soul_name">Name:</label><span class="sheet-left2"><input type="text" name="attr_soul_name" /></span>
+        </td>
+        <td width="20%">
+            <label class="sheet-left">Esteem:</label><span class="sheet-left2"><input type="text" name="attr_esteem" class='sheet-short' /></span>
+        </td>
+        <td width="30%">
+            <label class="sheet-left">Shadow's Touch:</label><span class="sheet-left2"><input type="text" name="attr_shadows_touch" class='sheet-short' /></span>
+        </td>
+    </tr>
+    <tr>
+        <td>
+            <label class="sheet-left">Nature:</label><span class="sheet-left2"><input type="text" name="attr_soul_nature" /></span>
+        </td>
+        <td colspan="2">
+            <label class="sheet-left">Favored Color:</label><span class="sheet-left2"><input type="text" name="attr_favored_color" /></span>
+        </td>
+    </tr>
+</table>
+
+<div class="row">
+    <div class="col"><h2>Current Incarnation</h2></div>
+</div>
+
+<table class="sheet-table">
+    <tr>
+        <td>
+            <label class="sheet-left">Name:</label><span class="sheet-left2"><input type="text" name="attr_character_name" /></span>
+        </td>
+        <td width="30%">
+            <label class="sheet-left">Sex:</label>
+            <span class="sheet-left2">
+                <select name="attr_sex">
+                    <option value="M">Male</option>
+                    <option value="F">Female</option>
+                    <option value="H">Hermaphrodite</option>
+                </select>
+            </span>
+        </td>
+        <td width="20%">
+            <label class="sheet-left">Age:</label><span class="sheet-left2"><input type="text" name="attr_age" /></span>
+        </td>
+    </tr>
+</table>
+
+<div class="row">
+    <div class="col"><h2>Attributes</h2></div>
+</div>
+
+<table class="sheet-table">
+    <tr>
+        <td>
+            <label class="sheet-left">Brawn (wands):</label><span class="sheet-left2"><input type="text" name="attr_brawn" /></span>
+        </td>
+        <td>
+            <label class="sheet-left">Grace (swords):</label><span class="sheet-left2"><input type="text" name="attr_grace" /></span>
+        </td>
+        <td>
+            <label class="sheet-left">Will (cups):</label><span class="sheet-left2"><input type="text" name="attr_will" /></span>
+        </td>
+        <td>
+            <label class="sheet-left">Wits (pentacles):</label><span class="sheet-left2"><input type="text" name="attr_wits" /></span>
+        </td>
+    </tr>
+</table>
+
+<table class="sheet-table">
+    <tr>
+        <td width="40%">
+            <label class="sheet-left">Health (2 * Brawn + 2 * Will + 13):</label><span class="sheet-left2"><input type="text" name="attr_health" value="((@{brawn} * 2) + (@{will} * 2) + 13)" disabled="true" /></span>
+        </td>
+        <td width="15%">
+            <label class="sheet-left">Injury:</label><span class="sheet-left2"><input type="text" name="attr_injury" value="0" /></span>
+        </td>
+        <td>
+            <label class="sheet-left">Life Force (99 - Age):</label><span class="sheet-left2"><input type="text" name="attr_life_force" value="(99 - @{age})" disabled="true" /></span>
+        </td>
+        <td width="15%">
+            <label class="sheet-left">Drain:</label><span class="sheet-left2"><input type="text" name="attr_drain" value="0" /></span>
+        </td>
+    </tr>
+</table>
+
+<hr/>
+
+<table class="sheet-table">
+    <tr>
+        <td colspan="3" style="padding-bottom: 12px">
+            <label class="sheet-left">Occupation:</label><span class="sheet-left2"><input type="text" name="attr_occupation" /></span>
+        </td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Animal Handling:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_animal_handling" value="0" /></span></td>
+        <td><label class="sheet-left">Intuition:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_intuition" value="0" /></span></td>
+        <td><label class="sheet-left">Piloting:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_piloting" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Athletics:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_athletics" value="0" /></span></td>
+        <td><label class="sheet-left">Language:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_language" value="0" /></span></td>
+        <td><label class="sheet-left">Prestidigitation:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_prestidigitation" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Bluffing:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_bluffing" value="0" /></span></td>
+        <td><label class="sheet-left">Law:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_law" value="0" /></span></td>
+        <td><label class="sheet-left">Research:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_research" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Business:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_business" value="0" /></span></td>
+        <td><label class="sheet-left">Literacy:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_literacy" value="0" /></span></td>
+        <td><label class="sheet-left">Riding:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_riding" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Computer:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_computer" value="0" /></span></td>
+        <td><label class="sheet-left">Lockpicking:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_lockpicking" value="0" /></span></td>
+        <td><label class="sheet-left">Shooting:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_shooting" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Crime:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_crime" value="0" /></span></td>
+        <td><label class="sheet-left">Mechanics:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_mechanics" value="0" /></span></td>
+        <td><label class="sheet-left">Stealth:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_stealth" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Disguise:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_disguise" value="0" /></span></td>
+        <td><label class="sheet-left">Medicine:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_medicine" value="0" /></span></td>
+        <td><label class="sheet-left">Survival:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_survival" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Driving:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_driving" value="0" /></span></td>
+        <td><label class="sheet-left">Navigation:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_navigation" value="0" /></span></td>
+        <td><label class="sheet-left">Throwing:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_throwing" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Electronics:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_electronics" value="0" /></span></td>
+        <td><label class="sheet-left">Occultism:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_occultism" value="0" /></span></td>
+        <td><label class="sheet-left">Tracking:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_tracking" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Hand-to-Hand:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_hand_to_hand" value="0" /></span></td>
+        <td><label class="sheet-left">Perception:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_perception" value="0" /></span></td>
+        <td><span class="sheet-left"><input type="text" name="attr_skill_custom_skill_1_name" value="Custom Skill 1" /></span><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_custom_skill_1" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Heavy Equipment:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_heavy_equipment" value="0" /></span></td>
+        <td><label class="sheet-left">Persuasion:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_persuasion" value="0" /></span></td>
+        <td><span class="sheet-left"><input type="text" name="attr_skill_custom_skill_2_name" value="Custom Skill 2" /></span><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_custom_skill_2" value="0" /></span></td>
+    </tr>
+    <tr>
+        <td><label class="sheet-left">Intimidation:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_intimidation" value="0" /></span></td>
+        <td><label class="sheet-left">Pickpocketing:</label><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_pickpocketing" value="0" /></span></td>
+        <td><span class="sheet-left"><input type="text" name="attr_skill_custom_skill_3_name" value="Custom Skill 3" /></span><span class="sheet-left2"><input class="sheet-attr" type="text" name="attr_skill_custom_skill_3" value="0" /></span></td>
+    </tr>
+</table>
+
+<table class="sheet-table">
+    <tr>
+        <td style="padding-top: 12px">
+            <label class="sheet-left">Paranormal Gift:</label><span class="sheet-left2"><input type="text" name="attr_paranormal_gift" /></span>
+        </td>
+        <td width="30%" style="padding-top: 12px">
+            <label class="sheet-left">Shadow's Mark:</label><span class="sheet-left2"><input type="text" name="attr_shadows_mark" /></span>
+        </td>
+    </tr>
+</table>
+
+<div class="row">
+    <div class="col"><h2>Notes</h2></div>
+</div>
+
+<textarea name="attr_hindrances"></textarea>
